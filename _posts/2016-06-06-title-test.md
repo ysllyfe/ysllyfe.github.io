@@ -6,8 +6,7 @@ date: 2016-06-15 19:13:31
 
 rails 项目引用了 elasticsearch 做为全文检索
 
-```
-
+  ```
   settings analysis: {
     analyzer: {
       charSplit: {
@@ -29,5 +28,5 @@ rails 项目引用了 elasticsearch 做为全文检索
       indexes :plate_no,      analyzer: 'charSplit'
     end
   end
-```
+  ```
 
