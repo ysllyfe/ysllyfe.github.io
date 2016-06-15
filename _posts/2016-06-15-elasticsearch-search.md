@@ -17,8 +17,27 @@ I am a placeholder post. Lorem ipsum dolor sit amet, consectetuer adipiscing eli
 1. List with code
 
 ```
-not highlighted
-multi line
+  settings analysis: {
+    analyzer: {
+      charSplit: {
+        type: 'custom',
+        tokenizer: 'ngram_tokenizer'
+      }
+    },
+    tokenizer: {
+      ngram_tokenizer: {
+        type: 'nGram',
+        min_gram: 1,
+        max_gram: 1,
+        token_chars: ['letter','digit','punctuation']
+      }
+    }
+  }
+  settings index:{ number_of_shards: 1, number_of_replicas: 0 } do
+    mapping do
+      indexes :plate_no,      analyzer: 'charSplit'
+    end
+  end
 ```
 2. List with code{% highlight javascript %}
 var dom = document.getElementById('boom')
