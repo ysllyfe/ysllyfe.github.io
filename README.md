@@ -1,21 +1,57 @@
-# Gravity
+Scribble
+========
 
+A Jekyll theme. [Want a demo? click and read instruction. :point_left:](http://scribble.muan.co/2013/05/06/scribble-the-jekyll-theme/)
+<br />
+[More themes](https://github.com/muan/muan.github.com/releases).
 
-If there's any issue you are facing in setting up this theme I'm there for you. Just create an issue in this repository (http://github.com/hemangsk/Gravity), (https://help.github.com/articles/creating-an-issue/) and I'll get back to you asap.
+![screenshot](https://cloud.githubusercontent.com/assets/1153134/11014801/12c7940a-853e-11e5-9f7b-87325c9bc695.png)
 
-![alt tag](https://farm2.staticflickr.com/1593/25549169123_cfb392bfe9.jpg)
+There is no clever design philosophy to talk about, I tried to find something to work with, and 'scribble' came to my mind.
 
-![alt-tag](https://farm8.staticflickr.com/7295/26900743846_10e9a0ba71_o.png)
-![alt-tag](https://farm8.staticflickr.com/7675/26840339222_b078607576_o.png)
-![alt-tag](https://farm2.staticflickr.com/1592/26151881165_3f351e5fd1.jpg)
+This theme uses Open Sans powered by Google Web Fonts, and was written in plain HTML, SCSS & CoffeeScript, though .scss & .coffee files wouldn't be included in the theme.
 
+The theme is mobile optimized but I did not check browser compatibility. It looks great in Chrome, Safari and Firefox though.
 
+---
 
-![alt-tag](https://farm2.staticflickr.com/1674/25549273413_3872aa3b1e_o.png)
+### Get started
 
+1. [Fork the repository](https://github.com/muan/scribble/fork).
+2. Clone the repository to your computer.<br /> `git clone https://github.com/username/scribble`
+3. `bundle install`
+4. **Using older versions of Jekyll**<br />
+  Build and run Jekyll using `jekyll --server --auto`.<br />
+  **Using [Jekyll 1.0](http://blog.parkermoore.de/2013/05/06/jekyll-1-dot-0-released/)**<br />
+  Build Jekyll using `jekyll build`.<br />
+  Then run Jekyll using `jekyll serve --watch`, go to http://localhost:4000 for your site.
 
+---
 
-![alt-tag](https://farm2.staticflickr.com/1590/26563924866_ec40fd1ccd_o.png)
+### Make it yours
 
-![alt-tag](https://farm2.staticflickr.com/1565/25879042020_03acf3c968_o.png)
+1. I have extracted most user specific information to `_config.yml`, you should be able to set up almost everything from it.
+2. Change about.md for blog intro.
+3. For domain settings, see [the guide from GitHub](https://help.github.com/articles/setting-up-a-custom-domain-with-pages).
 
+---
+
+### Options
+
+When writing a post, there are 3 options you can add to the header.
+
+1. **disqus: y**<br />
+  If disqus is set to 'y', at the end of the post there will be a disqus thread, just like this one. To use disqus, you MUST [set up your own disqus account](http://disqus.com/).
+
+2. **share: y**<br />
+  An option for showing tweet and like button under a post.
+
+3. **date**: 2013-05-06 18:07:17<br />
+  Date is not a required header since Jekyll reads the file name for date, this was added in only for the **signoff time**. (as shown at the end of this post) If you don't want the signoff time, go into `/includes/signoff.html` remove the `<span>`, and remove `{% include signoff.html %}` from `/layouts/post.html`.
+
+---
+
+### The end
+
+Like it? [Tell me](http://twitter.com/muanchiou).<br/>
+Question? [Use GitHub Issues](https://github.com/muan/scribble/issues).
