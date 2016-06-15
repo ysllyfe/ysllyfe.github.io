@@ -16,10 +16,10 @@ I am a placeholder post. Lorem ipsum dolor sit amet, consectetuer adipiscing eli
 
 1. List with code
 
-  ```
-  not highlighted
-  multi line
-  ```
+```
+not highlighted
+multi line
+```
 2. List with code{% highlight javascript %}
 var dom = document.getElementById('boom')
 console.log(dom);{% endhighlight %}
