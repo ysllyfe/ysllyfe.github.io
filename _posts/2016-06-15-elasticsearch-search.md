@@ -6,7 +6,7 @@ date: 2016-06-15 19:13:31
 
 rails 项目引用了 elasticsearch 做为全文检索
 
-```ruby
+```
   settings analysis: {
     analyzer: {
       charSplit: {
@@ -29,4 +29,6 @@ rails 项目引用了 elasticsearch 做为全文检索
     end
   end
 ```
+
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
 
