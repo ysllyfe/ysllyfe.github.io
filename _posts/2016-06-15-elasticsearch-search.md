@@ -6,7 +6,7 @@ date: 2016-06-15 15:27:31
 
 原来使用elasticsearch只是用他的简单配方，分词也是网上抄的。
 
-1. model分词配置
+model分词配置
 
 ```
   settings analysis: {
@@ -27,7 +27,7 @@ date: 2016-06-15 15:27:31
   }
   settings index:{ number_of_shards: 1, number_of_replicas: 0 } do
     mapping do
-      indexes :plate_no,      analyzer: 'charSplit'
+      indexes :model_column,      analyzer: 'charSplit'
     end
   end
 ```
