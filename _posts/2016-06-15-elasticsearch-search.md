@@ -1,20 +1,12 @@
 ---
 layout: post
-title: Elasticshearch search
-date: 2016-05-07 15:27:31
+title: Elasticsearch usage Base
+date: 2016-06-15 15:27:31
 ---
 
-test
+原来使用elasticsearch只是用他的简单配方，分词也是网上抄的。
 
-中文
-
-I am a placeholder post. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-
-> Boom. I am a blockquote.1
->
-> Say something really clever here.
-
-1. List with code
+1. model分词配置
 
 ```
   settings analysis: {
@@ -39,17 +31,4 @@ I am a placeholder post. Lorem ipsum dolor sit amet, consectetuer adipiscing eli
     end
   end
 ```
-2. List with code{% highlight javascript %}
-var dom = document.getElementById('boom')
-console.log(dom);{% endhighlight %}
-
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-
-{% highlight ruby %}
-def whaaa
-  puts "I have a friend called Bobobmob."
-end
-{% endhighlight %}
 
