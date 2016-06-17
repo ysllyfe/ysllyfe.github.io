@@ -10,3 +10,4 @@ date: 2016-06-17 19:18:24
 
 具体的activerecord callbacks
 [http://api.rubyonrails.org/classes/ActiveRecord/Callbacks.html]()
+
